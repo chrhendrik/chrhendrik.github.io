@@ -17,6 +17,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
     />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
     <title>My Portofolio</title>
@@ -50,7 +52,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#project">Project</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -69,10 +71,8 @@
         width="110"
         class="rounded-circle img-thumbnail"
       />
-      <h1 class="display-4 fw-normal">Christian Hendrik</h1>
-      <p class="lead fs-5 fw-light">
-        Hello, saya Christian Hendrik, Web Developer
-      </p>
+      <h1 class="display-4 fw-normal">Christian Hendrik S</h1>
+      <p class="lead fs-5 fw-light"></p>
       <a class="btn btn-secondary" href="CV Hendrik/CV.rar" role="button"
         >Download CV</a
       >
@@ -96,7 +96,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" data-aos="zoom-in" data-aos-duration="1200">
               <img
                 src="img/icon/hand-drawn-web-developers/4884785.jpg"
                 class="card-img-top"
@@ -112,7 +112,12 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div
+              class="card"
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              data-aos-delay="250"
+            >
               <img
                 src="img/icon/programmer-working-with-sql/2778464.jpg"
                 class="card-img-top"
@@ -128,7 +133,12 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div
+              class="card"
+              data-aos="zoom-in"
+              data-aos-duration="1200"
+              data-aos-delay="500"
+            >
               <img
                 src="img/icon/operating-system-concept-illustration/3937434.jpg"
                 class="card-img-top"
@@ -155,61 +165,86 @@
     <!-- akhir about -->
 
     <!-- project -->
-    <section id="gallery" style="background-color: #e2edff">
+    <section id="project" style="background-color: #e2edff">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Gallery</h2>
+            <h2>My Project</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <!-- <div class="card"> -->
-            <img src="img/project/p1.jpg" class="card-img-top" alt="p1" />
-            <!-- <div class="card-body">
+            <div class="card" data-aos="flip-left" data-aos-duration="1200">
+              <img src="img/project/p1.jpg" class="card-img-top" alt="p1" />
+              <div class="card-body">
                 <p class="card-text"></p>
               </div>
-            </div> -->
+            </div>
           </div>
           <div class="col-md-4 mb-3">
-            <!-- <div class="card"> -->
-            <img src="img/project/p2.jpg" class="card-img-top" alt="p2" />
-            <!-- <div class="card-body">
+            <div
+              class="card"
+              data-aos="flip-down"
+              data-aos-duration="1200"
+              data-aos-delay="200"
+            >
+              <img src="img/project/p2.jpg" class="card-img-top" alt="p2" />
+              <div class="card-body">
                 <p class="card-text"></p>
               </div>
-            </div> -->
+            </div>
           </div>
           <div class="col-md-4 mb-3">
-            <!-- <div class="card"> -->
-            <img src="img/project/p7.jpg" class="card-img-top" alt="p7" />
-            <!-- <div class="card-body">
-                <p class="card-text"></p> -->
-            <!-- </div> -->
-            <!-- </div> -->
+            <div
+              class="card"
+              data-aos="flip-right"
+              data-aos-duration="1200"
+              data-aos-delay="400"
+            >
+              <img src="img/project/p7.jpg" class="card-img-top" alt="p7" />
+              <div class="card-body">
+                <p class="card-text"></p>
+              </div>
+            </div>
           </div>
           <div class="col-md-4 -mb-3">
-            <!-- <div class="card"> -->
-            <img src="img/project/p4.jpg" class="card-img-top" alt="p4" />
-            <!-- <div class="card-body">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-duration="1200"
+              data-aos-delay="600"
+            >
+              <img src="img/project/p4.jpg" class="card-img-top" alt="p4" />
+              <div class="card-body">
                 <p class="card-text"></p>
-              </div> -->
-            <!-- </div> -->
+              </div>
+            </div>
           </div>
           <div class="col-md-4 -mb-3">
-            <!-- <div class="card"> -->
-            <img src="img/project/p5.jpg" class="card-img-top" alt="p5" />
-            <!-- <div class="card-body">
+            <div
+              class="card"
+              data-aos="flip-down"
+              data-aos-duration="1200"
+              data-aos-delay="800"
+            >
+              <img src="img/project/p5.jpg" class="card-img-top" alt="p5" />
+              <div class="card-body">
                 <p class="card-text"></p>
-              </div> -->
-            <!-- </div> -->
+              </div>
+            </div>
           </div>
           <div class="col-md-4 -mb-3">
-            <!-- <div class="card"> -->
-            <img src="img/project/p6.jpg" class="card-img-top" alt="p6" />
-            <!-- <div class="card-body">
+            <div
+              class="card"
+              data-aos="flip-right"
+              data-aos-duration="1200"
+              data-aos-delay="1000"
+            >
+              <img src="img/project/p6.jpg" class="card-img-top" alt="p6" />
+              <div class="card-body">
                 <p class="card-text"></p>
-              </div> -->
-            <!-- </div> -->
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -225,7 +260,12 @@
 
     <!-- contact -->
     <section id="contact">
-      <div class="container">
+      <div
+        class="container"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+      >
         <div class="row text-center">
           <div class="col">
             <h2>Contact</h2>
@@ -255,7 +295,7 @@
                   aria-describedby="name"
                   name="nama"
                 />
-                <label for="emaol" class="form-label">Email</label>
+                <label for="email" class="form-label">Email</label>
                 <input
                   type="email"
                   class="form-control"
@@ -304,21 +344,55 @@
 
     <!-- footer -->
     <footer class="bg-primary text-white text-center pb-5">
-      <p>
-        Created with <i class="bi bi-heart-fill text-danger"></i>
+      <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+        Stay connected with <i class="bi bi-heart-fill text-danger"></i>
         <a
           href="https://www.instagram.com/chrhendrik/"
-          class="text-white fw-bold"
-          >Christian Hendrik Sumendap</a
+          class="text-white fw-normal"
+          >Christian Hendrik S</a
         >
       </p>
     </footer>
     <!-- end footer -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", {
+        duration: 2.5,
+        delay: 1,
+        text: "Hello, saya Christian Hendrik, Web Developer",
+      });
+      gsap.from(".jumbotron img", {
+        duration: 1,
+        rotateY: 360,
+        opacity: 0,
+      });
+      gsap.from(".navbar", {
+        duration: 2,
+        y: "-100%",
+        opacity: 0,
+        ease: "bounce",
+      });
+      gsap.from(".display-4", {
+        duration: 2,
+        x: -50,
+        opacity: 0,
+        delay: 0.5,
+      });
+    </script>
     <script>
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbwSpbulXRrn4QVMIGpnBzb22niM3iZ_k5VLXjEwGbTuWsNNJqGDCc3NiTSE9ZHEw9qL/exec";
